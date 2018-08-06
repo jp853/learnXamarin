@@ -79,3 +79,15 @@ C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\obj\iPhoneSimulator\Debug\TravelRecordApp.iOS.csproj.CoreCompileInputs.cache
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\obj\iPhoneSimulator\Debug\TravelRecordApp.iOS.exe
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\obj\iPhoneSimulator\Debug\TravelRecordApp.iOS.pdb
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.dll
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.iOS.dll
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.xml
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Geolocator.Abstractions.dll
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Geolocator.dll
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.Abstractions.dll
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.dll
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Geolocator.xml
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Geolocator.Abstractions.xml
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.xml
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.Abstractions.pdb
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.Abstractions.xml
