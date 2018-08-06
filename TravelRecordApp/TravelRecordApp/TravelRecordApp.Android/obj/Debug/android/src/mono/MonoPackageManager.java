@@ -100,6 +100,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "TravelRecordApp.Android.dll" comes first in this list. */
 		"TravelRecordApp.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Geolocator.Abstractions.dll",
 		"Plugin.Geolocator.dll",
