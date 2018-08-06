@@ -3,6 +3,12 @@ C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Andr
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\TravelRecordApp.Android.apk
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\TravelRecordApp.Android-Signed.apk
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\FormsViewGroup.dll
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\SQLite-net.dll
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\SQLitePCLRaw.lib.e_sqlite3.dll
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\TravelRecordApp.dll
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\Xamarin.Android.Support.Design.dll
@@ -19,6 +25,8 @@ C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Andr
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\TravelRecordApp.pdb
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\FormsViewGroup.pdb
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\SQLite-net.pdb
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\SQLite-net.xml
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\Xamarin.Forms.Core.pdb
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\Xamarin.Forms.Core.xml
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
