@@ -75,20 +75,6 @@ C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Andr
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\res\layout\tabbar.xml
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\res\layout\toolbar.xml
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\res\values\styles.xml
-C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\R.cs.flag
-C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\uploadflags.txt
-C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\TravelRecordApp.dll.mdb
-C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\TravelRecordApp.Android.dll.mdb
-C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
-C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\android\assets\Plugin.Geolocator.Abstractions.dll.mdb
-C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\android\assets\Plugin.Geolocator.dll.mdb
-C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\android\assets\Plugin.Permissions.Abstractions.dll.mdb
-C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\android\assets\Plugin.Permissions.dll.mdb
-C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\android\assets\TravelRecordApp.Android.dll.mdb
-C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\android\assets\TravelRecordApp.dll.mdb
-C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
-C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
-C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\res\drawable-hdpi\add.png
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\res\drawable-xhdpi\add.png
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\res\drawable-xxhdpi\add.png
@@ -109,3 +95,5 @@ C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Andr
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\res\drawable\save.png
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\res\drawable-xhdpi\save.png
 C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\res\drawable-xxhdpi\save.png
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\R.cs.flag
+C:\Users\lalor\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\uploadflags.txt
