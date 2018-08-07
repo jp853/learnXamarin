@@ -1,8 +1,8 @@
-This is a list of projects that are made in the attempt to learn Xamarin and better my C# skills.
+This is a list of projects that are made in the attempt to learn Xamarin and better my C# skills. Project 1 uses Xamarin Forms and Project 2 is Classic Xamarin.
 
 # Project 1
 ## Travel Record App
-This project was made to learn Xamrin Forms. A user can sign in to record trips and experiences while the phone uses location data to display information about surrounding area. The app will then show you where to the location was on a map with a pin. The application uses the following features;
+This project was made to learn Xamarin Forms. A user can sign in to record trips and experiences while the phone uses location data to display information about surrounding area. The app will then show you where to the location was on a map with a pin. The application uses the following features;
 - Google Maps API
 - FourSqure API
 - Tabs
@@ -18,4 +18,6 @@ I cannot claim that all code was orginal content from me. About 80% of the logic
 - change logic to pull from cloud instead of local
 
 # Project 2
-## in progress...
+## Delivery App
+### in progress..
+This delivery app will allows a client and an administrator to login and view data about necessary deliveries. The client will post the coordinates where a package is needed and the administrator will be able to view where a package is needed and will receive directions on how and where to deliver the package.
