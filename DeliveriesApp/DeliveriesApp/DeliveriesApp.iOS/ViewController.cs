@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Foundation;
 using UIKit;
 
 namespace DeliveriesApp.iOS
@@ -13,19 +13,17 @@ namespace DeliveriesApp.iOS
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
-
-            helloButton.TouchUpInside += HelloButton_TouchUpInside;
 		}
 
-        private void HelloButton_TouchUpInside(object sender, EventArgs e)
+        public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
         {
-            var alert = UIAlertController.Create("Hello", $"Hello {nameTextField.Text}", UIAlertControllerStyle.Alert);
+            base.PrepareForSegue(segue, sender);
 
-            var cancelAction = UIAlertAction.Create("Hello", UIAlertActionStyle.Cancel, null);
-
-            alert.AddAction(cancelAction);
-
-            PresentViewController(alert, true, null);
+            if(segue.Identifier == "registerSegue")
+            {
+                var destinationViewController = segue.DestinationViewController as RegisterViewController;
+                destinationViewController.emailAddress = emailTextField.Text;
+            }
         }
 
         public override void DidReceiveMemoryWarning ()
