@@ -139,6 +139,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeliveredTableViewCell.cs" />
+    <Compile Include="DeliveredTableViewCell.designer.cs">
+      <DependentUpon>DeliveredTableViewCell.cs</DependentUpon>
+    </Compile>
     <Compile Include="DeliveredViewController.cs" />
     <Compile Include="DeliveredViewController.designer.cs">
       <DependentUpon>DeliveredViewController.cs</DependentUpon>
@@ -146,6 +150,10 @@
     <Compile Include="DeliveriesViewController.cs" />
     <Compile Include="DeliveriesViewController.designer.cs">
       <DependentUpon>DeliveriesViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeliveryTableViewCell.cs" />
+    <Compile Include="DeliveryTableViewCell.designer.cs">
+      <DependentUpon>DeliveryTableViewCell.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />

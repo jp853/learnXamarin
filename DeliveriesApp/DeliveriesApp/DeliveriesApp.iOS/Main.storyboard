@@ -189,13 +189,55 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="6771">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="6771" reuseIdentifier="deliveryCell" rowHeight="60" customClass="DeliveryTableViewCell">
+                                <rect key="frame" x="0.0" y="28" width="600" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6771" id="6772">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="59.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="10528" translatesAutoresizingMaskIntoConstraints="NO">
+                                            <rect key="frame" x="20" y="11" width="449" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="highlightedColor"/>
+                                            <constraints>
+                                                <constraint id="13829" firstAttribute="width" constant="449"/>
+                                            </constraints>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="10579" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                            <rect key="frame" x="20" y="38" width="449" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <nil key="highlightedColor"/>
+                                            <constraints>
+                                                <constraint id="13832" firstAttribute="width" constant="449"/>
+                                            </constraints>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="10580" translatesAutoresizingMaskIntoConstraints="NO">
+                                            <rect key="frame" x="477" y="11" width="103" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" colorSpace="calibratedRGB" red="0.32941176470588235" green="0.56862745098039214" blue="1" alpha="1"/>
+                                            <nil key="highlightedColor"/>
+                                            <constraints>
+                                                <constraint id="13836" firstAttribute="width" constant="103"/>
+                                                <constraint id="13837" firstAttribute="height" constant="21"/>
+                                            </constraints>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint id="13915" firstItem="10528" firstAttribute="leading" secondItem="6772" secondAttribute="leading" constant="20"/>
+                                        <constraint id="13916" firstItem="10579" firstAttribute="leading" secondItem="6772" secondAttribute="leading" constant="20"/>
+                                        <constraint id="13917" firstItem="10579" firstAttribute="top" secondItem="10528" secondAttribute="bottom" constant="6"/>
+                                        <constraint id="13918" firstItem="10528" firstAttribute="top" secondItem="6772" secondAttribute="top" constant="11"/>
+                                        <constraint id="13919" firstItem="10580" firstAttribute="leading" secondItem="10528" secondAttribute="trailing" constant="8"/>
+                                        <constraint id="13996" firstItem="10580" firstAttribute="centerY" secondItem="10528" secondAttribute="centerY"/>
+                                        <constraint id="14071" firstItem="6772" firstAttribute="trailing" secondItem="10580" secondAttribute="trailing" constant="20"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="10528" id="name-outlet-10528"/>
+                                    <outlet property="statusLabel" destination="10579" id="name-outlet-10579"/>
+                                    <outlet property="coordinatesLabel" destination="10580" id="name-outlet-10580"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -218,13 +260,47 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="6878">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="6878" reuseIdentifier="deliveredCell" rowHeight="60" customClass="DeliveredTableViewCell">
+                                <rect key="frame" x="0.0" y="28" width="600" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6878" id="6879">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="59.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="12191" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                            <rect key="frame" x="20" y="8" width="434" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="12192" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                            <rect key="frame" x="20" y="37" width="434" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="12193" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                            <rect key="frame" x="462" y="8" width="118" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" colorSpace="calibratedRGB" red="0.031372549019607843" green="0.55294117647058827" blue="0.93725490196078431" alpha="1"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint id="12194" firstItem="12191" firstAttribute="leading" secondItem="6879" secondAttribute="leading" constant="20"/>
+                                        <constraint id="12195" firstItem="12191" firstAttribute="top" secondItem="6879" secondAttribute="top" constant="8"/>
+                                        <constraint id="12196" firstItem="12192" firstAttribute="leading" secondItem="6879" secondAttribute="leading" constant="20"/>
+                                        <constraint id="12197" firstItem="12192" firstAttribute="top" secondItem="12191" secondAttribute="bottom" constant="8"/>
+                                        <constraint id="12198" firstItem="6879" firstAttribute="trailing" secondItem="12193" secondAttribute="trailing" constant="20"/>
+                                        <constraint id="12199" firstItem="12193" firstAttribute="top" secondItem="6879" secondAttribute="top" constant="8"/>
+                                        <constraint id="13455" firstItem="12193" firstAttribute="leading" secondItem="12191" secondAttribute="trailing" constant="8"/>
+                                        <constraint id="13456" firstItem="12193" firstAttribute="leading" secondItem="12192" secondAttribute="trailing" constant="8"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="12191" id="name-outlet-12191"/>
+                                    <outlet property="statusLabel" destination="12192" id="name-outlet-12192"/>
+                                    <outlet property="coordinatesLabel" destination="12193" id="name-outlet-12193"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
