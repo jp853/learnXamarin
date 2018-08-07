@@ -15,6 +15,9 @@ C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\bi
 C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
 C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
 C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\bin\Debug\Xamarin.GooglePlayServices.Base.dll
+C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\bin\Debug\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\bin\Debug\Xamarin.GooglePlayServices.Maps.dll
 C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\bin\Debug\DeliveriesApp.pdb
 C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\bin\Debug\DeliveriesApp.dll.config
 C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
@@ -49,3 +52,7 @@ C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\ob
 C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\obj\Debug\res\drawable-xxxhdpi\ic_action_add.png
 C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\obj\Debug\R.cs.flag
 C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\obj\Debug\uploadflags.txt
+C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\bin\Debug\DeliveriesApp.dll.mdb
+C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\bin\Debug\DeliveriesApp.Android.dll.mdb
+C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\obj\Debug\android\assets\DeliveriesApp.Android.dll.mdb
+C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\obj\Debug\android\assets\DeliveriesApp.dll.mdb

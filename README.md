@@ -32,7 +32,7 @@ This delivery app will allows a client and an administrator to login and view da
 - ~~Tabs IOS~~
 - ~~Lists Android~~
 - ~~Lists IOS~~
-- Maps Android
+- ~~Maps Android~~
 - Maps IOS
 - Delivery Person Functionality
 - Platform Specific Functionality
