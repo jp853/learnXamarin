@@ -9,6 +9,7 @@ C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\ob
 C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\obj\Debug\DeliveriesApp.Android.dll
 C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\obj\Debug\DeliveriesApp.Android.pdb
 C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\obj\Debug\android\bin\DeliveriesApp.Android.apk
+C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\obj\Debug\res\layout\register.xml
 C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\obj\Debug\res\layout\main.xml
 C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\obj\Debug\res\values\strings.xml
 C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp.Android\obj\Debug\res\drawable-hdpi\icon.png

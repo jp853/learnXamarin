@@ -12,8 +12,8 @@ namespace DeliveriesApp.Droid
 	[Activity (Label = "DeliveriesApp.Android", MainLauncher = true, Icon = "@drawable/icon")]
 	public class MainActivity : Activity
 	{
-        EditText nameEditText;
-        Button helloButton;
+        EditText emailEditText, passwordEditText;
+        Button signinButton, registerButton;
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
@@ -21,15 +21,25 @@ namespace DeliveriesApp.Droid
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
 
-            nameEditText = FindViewById<EditText>(Resource.Id.nameEditText);
-            helloButton = FindViewById<Button>(Resource.Id.helloButton);
+            emailEditText = FindViewById<EditText>(Resource.Id.emailEditText);
+            passwordEditText = FindViewById<EditText>(Resource.Id.passwordEditText);
+            signinButton = FindViewById<Button>(Resource.Id.signinButton);
+            registerButton = FindViewById<Button>(Resource.Id.registerButton);
 
-            helloButton.Click += HelloButton_Click;
-		}
+            signinButton.Click += SigninButton_Click;
+            registerButton.Click += RegisterButton_Click;
+        }
 
-        private void HelloButton_Click(object sender, EventArgs e)
+        private void RegisterButton_Click(object sender, EventArgs e)
         {
-            Toast.MakeText(this, $"Hello {nameEditText.Text}", ToastLength.Long).Show();
+            var intent = new Intent(this, typeof(RegisterActivity));
+            intent.PutExtra("email", emailEditText.Text);
+            StartActivity(intent);
+        }
+
+        private void SigninButton_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
