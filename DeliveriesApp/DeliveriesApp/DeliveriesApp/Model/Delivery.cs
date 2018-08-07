@@ -22,6 +22,68 @@ namespace DeliveriesApp.Model
         /// </summary>
         public int Status { get; set; }
 
+        public string DeliveryPersonId { get; set; }
+
+        public static async Task<bool> MarkAsPickerUp(Delivery delivery, string deliveryPersonId)
+        {
+            try
+            {
+                delivery.Status = 1;
+                delivery.DeliveryPersonId = deliveryPersonId;
+                await AzureHelper.MobileService.GetTable<Delivery>().UpdateAsync(delivery);
+                return true;
+            }
+            catch(Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public static async Task<bool> MarkAsDelivered(Delivery delivery)
+        {
+            try
+            {
+                delivery.Status = 2;
+                await AzureHelper.MobileService.GetTable<Delivery>().UpdateAsync(delivery);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public static async Task<bool> MarkAsPickerUp(string deliveryId, string deliveryPersonId)
+        {
+            try
+            {
+                var delivery = (await AzureHelper.MobileService.GetTable<Delivery>().Where(d => d.Id == deliveryId).ToListAsync()).FirstOrDefault(); ;
+                delivery.Status = 1;
+                delivery.DeliveryPersonId = deliveryPersonId;
+                await AzureHelper.MobileService.GetTable<Delivery>().UpdateAsync(delivery);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public static async Task<bool> MarkAsDelivered(string deliveryId)
+        {
+            try
+            {
+                var delivery = (await AzureHelper.MobileService.GetTable<Delivery>().Where(d => d.Id == deliveryId).ToListAsync()).FirstOrDefault(); ;
+                delivery.Status = 2;
+                await AzureHelper.MobileService.GetTable<Delivery>().UpdateAsync(delivery);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
         public static async Task<List<Delivery>> GetDeliveries()
         {
             List<Delivery> deliveries = new List<Delivery>();
@@ -36,6 +98,33 @@ namespace DeliveriesApp.Model
             List<Delivery> deliveries = new List<Delivery>();
 
             deliveries = await AzureHelper.MobileService.GetTable<Delivery>().Where(d => d.Status == 2).ToListAsync();
+
+            return deliveries;
+        }
+
+        public static async Task<List<Delivery>> GetDelivered(string userId)
+        {
+            List<Delivery> deliveries = new List<Delivery>();
+
+            deliveries = await AzureHelper.MobileService.GetTable<Delivery>().Where(d => d.Status == 2 && d.DeliveryPersonId == userId).ToListAsync();
+
+            return deliveries;
+        }
+
+        public static async Task<List<Delivery>> GetBeingDelivered(string id)
+        {
+            List<Delivery> deliveries = new List<Delivery>();
+
+            deliveries = await AzureHelper.MobileService.GetTable<Delivery>().Where(d => d.Status == 1 && d.DeliveryPersonId == id).ToListAsync();
+
+            return deliveries;
+        }
+
+        public static async Task<List<Delivery>> GetWaiting()
+        {
+            List<Delivery> deliveries = new List<Delivery>();
+
+            deliveries = await AzureHelper.MobileService.GetTable<Delivery>().Where(d => d.Status == 0).ToListAsync();
 
             return deliveries;
         }
