@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using DeliveriesApp.Model;
 
 namespace DeliveriesApp.Droid
 {
@@ -35,9 +36,14 @@ namespace DeliveriesApp.Droid
             emailEditText.Text = email;
         }
 
-        private void RegisterButton_Click(object sender, EventArgs e)
+        private async void RegisterButton_Click(object sender, EventArgs e)
         {
-            
+            var result = await User.Register(emailEditText.Text, passwordEditText.Text, confirmPasswordEditText.Text);
+
+            if(result)
+                Toast.MakeText(this, "Success", ToastLength.Long).Show();
+            else
+                Toast.MakeText(this, "Try again", ToastLength.Long).Show();
         }
     }
 }

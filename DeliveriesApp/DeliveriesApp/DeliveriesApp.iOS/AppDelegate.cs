@@ -1,4 +1,5 @@
 ﻿using Foundation;
+using Microsoft.WindowsAzure.MobileServices;
 using UIKit;
 
 namespace DeliveriesApp.iOS
@@ -9,7 +10,6 @@ namespace DeliveriesApp.iOS
 	public class AppDelegate : UIApplicationDelegate
 	{
 		// class-level declarations
-
 		public override UIWindow Window {
 			get;
 			set;
@@ -17,8 +17,9 @@ namespace DeliveriesApp.iOS
 
 		public override bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
 		{
-			// Override point for customization after application launch.
-			// If not required for your application you can safely delete this method
+            // Override point for customization after application launch.
+            // If not required for your application you can safely delete this method
+            CurrentPlatform.Init();
 			return true;
 		}
 

@@ -1,11 +1,13 @@
 ﻿using System;
-
+using System.Linq;
 using Android.App;
 using Android.Content;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Microsoft.WindowsAzure.MobileServices;
+using DeliveriesApp.Model;
 
 namespace DeliveriesApp.Droid
 {
@@ -37,9 +39,22 @@ namespace DeliveriesApp.Droid
             StartActivity(intent);
         }
 
-        private void SigninButton_Click(object sender, EventArgs e)
+        private async void SigninButton_Click(object sender, EventArgs e)
         {
-            
+            var email = emailEditText.Text;
+            var password = passwordEditText.Text;
+
+            var result = await User.Login(email, password);
+
+            if (result)
+            {
+                Toast.MakeText(this, "Welcome", ToastLength.Long).Show();
+                Intent intent = new Intent(this, typeof(TabsActivity));
+                StartActivity(intent);
+                Finish();
+            }
+            else
+                Toast.MakeText(this, "Try again later", ToastLength.Long).Show();
         }
     }
 }

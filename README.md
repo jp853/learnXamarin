@@ -26,9 +26,9 @@ This delivery app will allows a client and an administrator to login and view da
 - ~~Make Hello World app~~
 - ~~Android Login Page~~
 - ~~IOS Login Page~~
-- Push code to azure
-- Share Code
-- Tabs Android
+- ~~Push code to azure~~
+- ~~Share Code~~
+- ~~Tabs Android~~
 - Tabs IOS
 - Lists Android
 - Lists IOS

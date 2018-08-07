@@ -1,6 +1,8 @@
 ﻿using System;
 using Foundation;
 using UIKit;
+using System.Linq;
+using DeliveriesApp.Model;
 
 namespace DeliveriesApp.iOS
 {
@@ -13,7 +15,30 @@ namespace DeliveriesApp.iOS
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
+
+            signinButton.TouchUpInside += SigninButton_TouchUpInside;
 		}
+
+        private async void SigninButton_TouchUpInside(object sender, EventArgs e)
+        {
+            var email = emailTextField.Text;
+            var password = passwordTextField.Text;
+            UIAlertController alert = null;
+
+            var result = await User.Login(email, password);
+
+            if(result)
+            {
+                alert = UIAlertController.Create("Success", "Welcome", UIAlertControllerStyle.Alert);
+            }
+            else
+            {
+                alert = UIAlertController.Create("Failure", "Couldn't log you in, please try again later", UIAlertControllerStyle.Alert);
+            }
+
+            alert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Default, null));
+            PresentViewController(alert, true, null);
+        }
 
         public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
         {
