@@ -1,0 +1,6 @@
+C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp\bin\Debug\DeliveriesApp.dll
+C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp\bin\Debug\DeliveriesApp.pdb
+C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp\obj\Debug\DeliveriesApp.csprojResolveAssemblyReference.cache
+C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp\obj\Debug\DeliveriesApp.csproj.CoreCompileInputs.cache
+C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp\obj\Debug\DeliveriesApp.dll
+C:\Users\lalor\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp\obj\Debug\DeliveriesApp.pdb

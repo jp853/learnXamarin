@@ -1,0 +1,4 @@
+DeliveriesApp.Droid.MainActivity, DeliveriesApp.Android;md5d43334bb56c5da1bfda07d9200efadb0.MainActivity
+DeliveriesApp.Droid.MainActivity, DeliveriesApp.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d43334bb56c5da1bfda07d9200efadb0.MainActivity
+DeliveriesApp.Droid.MainActivity;md5d43334bb56c5da1bfda07d9200efadb0.MainActivity
+deliveriesapp.droid.MainActivity;md5d43334bb56c5da1bfda07d9200efadb0.MainActivity
