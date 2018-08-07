@@ -29,7 +29,7 @@ This delivery app will allows a client and an administrator to login and view da
 - ~~Push code to azure~~
 - ~~Share Code~~
 - ~~Tabs Android~~
-- Tabs IOS
+- ~~Tabs IOS~~
 - Lists Android
 - Lists IOS
 - Maps Android

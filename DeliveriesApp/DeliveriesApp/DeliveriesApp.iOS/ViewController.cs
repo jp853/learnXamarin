@@ -8,6 +8,7 @@ namespace DeliveriesApp.iOS
 {
 	public partial class ViewController : UIViewController
 	{
+        bool hasLoggedIn = false;
 		public ViewController (IntPtr handle) : base (handle)
 		{
 		}
@@ -25,16 +26,21 @@ namespace DeliveriesApp.iOS
             var password = passwordTextField.Text;
             UIAlertController alert = null;
 
+            hasLoggedIn = false;
+
             var result = await User.Login(email, password);
 
             if(result)
             {
+                hasLoggedIn = true;
                 alert = UIAlertController.Create("Success", "Welcome", UIAlertControllerStyle.Alert);
             }
             else
             {
                 alert = UIAlertController.Create("Failure", "Couldn't log you in, please try again later", UIAlertControllerStyle.Alert);
             }
+
+            PerformSegue("loginSegue", this);
 
             alert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Default, null));
             PresentViewController(alert, true, null);
@@ -49,6 +55,15 @@ namespace DeliveriesApp.iOS
                 var destinationViewController = segue.DestinationViewController as RegisterViewController;
                 destinationViewController.emailAddress = emailTextField.Text;
             }
+        }
+
+        public override bool ShouldPerformSegue(string segueIdentifier, NSObject sender)
+        {
+            if(segueIdentifier == "loginSegue")
+            {
+                return hasLoggedIn;
+            }
+            return true;
         }
 
         public override void DidReceiveMemoryWarning ()
