@@ -21,3 +21,19 @@ I cannot claim that all code was orginal content from me. About 80% of the logic
 ## Delivery App
 ### in progress..
 This delivery app will allows a client and an administrator to login and view data about necessary deliveries. The client will post the coordinates where a package is needed and the administrator will be able to view where a package is needed and will receive directions on how and where to deliver the package.
+
+### To do List
+- Make Hello World app
+- Android Login Page
+- IOS Login Page
+- Push code to azure
+- Share Code
+- Tabs Android
+- Tabs IOS
+- Lists Android
+- Lists IOS
+- Maps Android
+- Maps IOS
+- Delivery Person Functionality
+- Platform Specific Functionality
+- Publish to App Store
