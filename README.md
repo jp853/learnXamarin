@@ -34,6 +34,6 @@ This delivery app will allows a client and an administrator to login and view da
 - ~~Lists IOS~~
 - ~~Maps Android~~
 - ~~Maps IOS~~
-- Delivery Person Functionality
+- ~~Delivery Person Functionality~~
 - Platform Specific Functionality
 - Publish to App Store
