@@ -20,7 +20,7 @@ I cannot claim that all code was orginal content from me. About 80% of the logic
 # Project 2
 ## Delivery App
 ### in progress..
-This delivery app will allows a client and an administrator to login and view data about necessary deliveries. The client will post the coordinates where a package is needed and the administrator will be able to view where a package is needed and will receive directions on how and where to deliver the package.
+This delivery app will allows a client and an administrator to login and view data about necessary deliveries. The client will post the coordinates where a package is needed and the administrator will be able to view the package and will receive directions on how and where to deliver the package.
 
 ### To do List
 - ~~Make Hello World app~~
