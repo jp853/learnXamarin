@@ -30,7 +30,7 @@ This delivery app will allows a client and an administrator to login and view da
 - ~~Share Code~~
 - ~~Tabs Android~~
 - ~~Tabs IOS~~
-- Lists Android
+- ~~Lists Android~~
 - Lists IOS
 - Maps Android
 - Maps IOS

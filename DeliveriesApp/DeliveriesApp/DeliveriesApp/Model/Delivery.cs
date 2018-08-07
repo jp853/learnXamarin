@@ -26,7 +26,16 @@ namespace DeliveriesApp.Model
         {
             List<Delivery> deliveries = new List<Delivery>();
 
-            deliveries = await AzureHelper.MobileService.GetTable<Delivery>().ToListAsync();
+            deliveries = await AzureHelper.MobileService.GetTable<Delivery>().Where(d => d.Status != 2).ToListAsync();
+
+            return deliveries;
+        }
+
+        public static async Task<List<Delivery>> GetDelivered()
+        {
+            List<Delivery> deliveries = new List<Delivery>();
+
+            deliveries = await AzureHelper.MobileService.GetTable<Delivery>().Where(d => d.Status == 2).ToListAsync();
 
             return deliveries;
         }
@@ -34,6 +43,11 @@ namespace DeliveriesApp.Model
         public static async Task<bool> InsertDelivery(Delivery delivery)
         {
             return await AzureHelper.Insert<Delivery>(delivery);
+        }
+
+        public override string ToString()
+        {
+            return $"{Name} - {Status}";
         }
     }
 }
