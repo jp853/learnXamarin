@@ -36,4 +36,8 @@ This delivery app will allows a client and an administrator to login and view da
 - ~~Maps IOS~~
 - ~~Delivery Person Functionality~~
 - Platform Specific Functionality
+- - biometric authentication - ios
+- - biometric authentication - android
+- - haptic feedback
+- - app shortcuts
 - Publish to App Store
