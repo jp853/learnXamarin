@@ -3,6 +3,8 @@ using System;
 
 using UIKit;
 using Foundation;
+using LocalAuthentication;
+using System.Threading.Tasks;
 
 namespace DeliveryPersonApp.iOS
 {
@@ -24,17 +26,70 @@ namespace DeliveryPersonApp.iOS
 
         private async void SigninButton_TouchUpInside(object sender, EventArgs e)
         {
+            bool success = CheckLogin();
+
+            if (success)
+            {
+                BiometricsAuth();
+            }
+            else
+            {
+                TraditionalLogin();
+            }
+        }
+
+        private async void TraditionalLogin()
+        {
             userId = await DeliveryPerson.Login(emailTextField.Text, passwordTextField.Text);
 
-            if(string.IsNullOrEmpty(userId))
+            if (string.IsNullOrEmpty(userId))
             {
 
             }
             else
             {
+                NSUserDefaults.StandardUserDefaults.SetString(userId, "userId");
+                NSUserDefaults.StandardUserDefaults.Synchronize();
                 hasLoggedin = true;
                 PerformSegue("loginSegue", this);
             }
+        }
+
+        private void BiometricsAuth()
+        {
+            NSError error;
+            var context = new LAContext();
+            if(context.CanEvaluatePolicy(LAPolicy.DeviceOwnerAuthenticationWithBiometrics, out error))
+            {
+                InvokeOnMainThread(async () =>
+                {
+                    var result = await context.EvaluatePolicyAsync(LAPolicy.DeviceOwnerAuthenticationWithBiometrics, "Login");
+
+                    if(result.Item1)
+                    {
+                        hasLoggedin = true;
+                        PerformSegue("loginSegue", this);
+                    }
+                    else
+                    {
+                        TraditionalLogin();
+                    }
+                });
+            }
+            else
+                TraditionalLogin();
+        }
+
+        private bool CheckLogin()
+        {
+            bool hasId = false;
+
+            userId = NSUserDefaults.StandardUserDefaults.StringForKey("userId");
+
+            if (!string.IsNullOrEmpty(userId))
+                hasId = true;
+
+            return hasId;
         }
 
         public override bool ShouldPerformSegue(string segueIdentifier, NSObject sender)
